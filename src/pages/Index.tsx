@@ -9,11 +9,11 @@ const Index = () => {
       <section className="relative py-20 px-4 text-center">
         <div className="max-w-6xl mx-auto">
           <div className="relative mb-8">
-            <div className="absolute inset-0 flex items-center justify-center opacity-20">
+            <div className="absolute inset-0 flex items-center justify-center opacity-15">
               <img 
-                src="/img/9cfefa8f-7754-4372-84b0-6f8c599b6e82.jpg" 
-                alt="Mystical feminine energy" 
-                className="w-96 h-96 object-cover rounded-full animate-pulse"
+                src="https://cdn.poehali.dev/files/19a66e41-4739-4638-a26b-55e82432d2d2.jpg" 
+                alt="Мать-Земля, материнское начало" 
+                className="w-80 h-80 object-contain animate-pulse"
               />
             </div>
             <h1 className="font-serif text-6xl md:text-8xl font-bold text-dusty-earth mb-6 relative z-10">
@@ -58,14 +58,25 @@ const Index = () => {
                 </p>
               </div>
               
-              <div className="bg-dusty-beige/50 p-6 rounded-lg">
-                <p className="text-dusty-earth font-medium mb-3">
-                  Материнский аспект - это ткань Мироздания, это фундамент вашего взаимодействия с материальным миром.
-                </p>
-                <p>
-                  Это про то, как вы живете в этом мире, насколько прочно вы стоите на ногах 
-                  или просто существуете в нем.
-                </p>
+              <div className="bg-dusty-beige/50 p-6 rounded-lg relative">
+                <div className="flex items-center gap-6">
+                  <div className="flex-shrink-0">
+                    <img 
+                      src="https://cdn.poehali.dev/files/19a66e41-4739-4638-a26b-55e82432d2d2.jpg"
+                      alt="Мать-Земля"
+                      className="w-24 h-24 object-contain opacity-80"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-dusty-earth font-medium mb-3">
+                      Материнский аспект - это ткань Мироздания, это фундамент вашего взаимодействия с материальным миром.
+                    </p>
+                    <p>
+                      Это про то, как вы живете в этом мире, насколько прочно вы стоите на ногах 
+                      или просто существуете в нем.
+                    </p>
+                  </div>
+                </div>
               </div>
               
               <p className="text-center font-medium">
