@@ -61,7 +61,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				dusty: {
+					rose: '#D4C4B0',
+					beige: '#F5F0E8',
+					sage: '#8B7B6B',
+					earth: '#4A3C2A',
+				},
+				mystic: {
+					pink: '#E5D5D0',
+					cream: '#F8F5F2',
+					brown: '#3D2914',
+					gold: '#D4AF37',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
